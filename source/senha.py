@@ -4,6 +4,6 @@ while True:
     if senha != senha1:
         print("senha invalida")
         senha = input()
-    if senha == "2002":
+    if senha == "10001":
         print("senha correta")
         break
