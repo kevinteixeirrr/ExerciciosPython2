@@ -8,7 +8,7 @@ def md(valor1, valor2):
         else:
             print("senha correta")
             break
-
+#a
 #programa principal
 senha1 = 2002
 senha2 = int(input())
