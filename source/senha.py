@@ -1,9 +1,15 @@
-while True:
-    senha1 = 2002
-    senha = input()
-    if senha != senha1:
-        print("senha invalida")
-        senha = input()
-    if senha == "10001":
-        print("senha correta")
-        break
+#em construção
+#subprograma
+def md(valor1, valor2):
+    while True:
+        if valor1 != valor2:
+            print("senha invalida")
+            valor2 = int(input())
+        else:
+            print("senha correta")
+            break
+
+#programa principal
+senha1 = 2002
+senha2 = int(input())
+md(senha1,senha2)
